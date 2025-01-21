@@ -1,0 +1,11 @@
+/.idea/shelf/Changes.xml
+/.idea/shelf/Changes/shelved.patch
+/.idea/workspace.xml
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
