@@ -1,5 +1,4 @@
 // 闭包的实现1 => 私有变量的封装
-// 对闭包的一些解释：https://chatgpt.com/share/677f87c0-ac90-8012-92ab-9a3edb78245a
 
 function closure(){
   let color = 'blue';
