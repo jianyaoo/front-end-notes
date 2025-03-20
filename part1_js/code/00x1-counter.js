@@ -109,3 +109,43 @@ counterOBJ.startCounter();
 
 setTimeout(counterOBJ.pauseCounter, 10 * 1000);
 setTimeout(counterOBJ.resumeCounter, 60 * 1000);
+
+
+var expect = function(val) {
+  const toBe = (val2) => {
+     if(val === val2){
+      return true
+     }
+     throw 'Not Equal'
+  }
+
+  const notToBe = (val2) => {
+      if(val !== val2){
+       return true
+      }
+      throw 'Equal'
+   }
+
+   return {
+      toBe,
+      notToBe
+   }
+};
+
+function createCounter(init) {
+  let value = init;
+  return {
+      increment: () => {
+          value++;
+          return value;
+      },
+      decrement: () => {
+          value--;
+          return value;
+      },
+      reset: () => {
+          value = init;
+          return value;
+      }
+  };
+};

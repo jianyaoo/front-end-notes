@@ -11,7 +11,7 @@ function createPerson(name, age, job) {
 }
 let person1 = createPerson("Nicholas", 29, "Software Engineer");
 let person2 = createPerson("Greg", 27, "Doctor");
-
+  
 
 // 构造函数创建对象
 function Person(name, age, job){
