@@ -1,3 +1,6 @@
+// 根据Promise/A+规范实现一个Promise
+
+
 class MyPromise {
   constructor(excutor) {
     this.state = "pending";

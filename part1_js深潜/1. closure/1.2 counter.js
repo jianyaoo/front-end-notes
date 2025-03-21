@@ -1,5 +1,6 @@
-// 闭包的实现1 => 私有变量的封装
+// 闭包的实践场景
 
+// 闭包的实现1 => 私有变量的封装
 function closure(){
   let color = 'blue';
   return function (){

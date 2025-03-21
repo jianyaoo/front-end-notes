@@ -1,4 +1,6 @@
 import axios from 'axios';
+
+// 实现一个支持多种下载方式的文件下载类
 class DownloadFile {
     // Blob 处理相关方法
     static createBlob(data, type = 'application/pdf') {

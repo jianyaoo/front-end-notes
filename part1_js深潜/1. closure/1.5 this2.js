@@ -80,7 +80,7 @@ obj.clickHandler();
 
 // 易错题5
 var a = 10;
-var obj = {
+var obj4 = {
   a: 20,
   fn: function() {
     var a = 30;
@@ -98,7 +98,7 @@ console.log(fn()); // 输出什么？
 
 // 题目6
 var a = 10;
-var obj = {
+var obj3 = {
   a: 20,
   fn: function() {
     var self = this;
@@ -116,7 +116,7 @@ console.log(innerFn()); // 输出什么？
 
 // 题目7
 var a = 10;
-var obj = {
+var obj2 = {
   a: 20,
   fn: function() {
     console.log(this.a);
